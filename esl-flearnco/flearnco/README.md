@@ -9,7 +9,11 @@ The final result includes:
 
 ## Project setup
 
-In the project directory, you can run:
+In the project directory, after cloning, you can run:
+
+### `yarn install`
+
+Installs the project setup.
 
 ### `yarn start`
 
