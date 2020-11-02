@@ -1,28 +1,28 @@
 .Menu {
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-  padding: 1rem;
   align-items: flex-end;
   background-color: #ffffff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   left: 0;
-  top: 50px;
-  opacity: 0;
   list-style: none;
+  opacity: 0;
+  padding: 1rem;
   position: absolute;
-  width: 100%;
+  top: 50px;
   transition: all 0.2s;
+  width: 100%;
 }
 
 .Menu.Opened {
-  top: 60px;
   opacity: 1;
+  top: 60px;
   transition: all 0.2;
 }
 
 .Menu__item {
-  margin: 1rem 0;
   font-weight: bold;
+  margin: 1rem 0;
 }
 
 @media screen and (min-width: 1024px) {

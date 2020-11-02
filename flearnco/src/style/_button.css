@@ -1,13 +1,13 @@
 .Button {
-  border: none;
-  padding: 1rem;
-  outline: 0;
   background-color: unset;
+  border: none;
+  outline: 0;
+  padding: 1rem;
 }
 
 .Button.btn-link {
-  padding: 0;
-  text-decoration: underline;
   color: #1199ee;
   font-weight: bold;
+  padding: 0;
+  text-decoration: underline;
 }
