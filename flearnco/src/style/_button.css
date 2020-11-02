@@ -1,0 +1,13 @@
+.Button {
+  border: none;
+  padding: 1rem;
+  outline: 0;
+  background-color: unset;
+}
+
+.Button.btn-link {
+  padding: 0;
+  text-decoration: underline;
+  color: #1199ee;
+  font-weight: bold;
+}
