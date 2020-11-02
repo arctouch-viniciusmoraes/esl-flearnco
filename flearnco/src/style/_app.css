@@ -24,4 +24,21 @@ a {
 
 .Main-heading {
   font-size: 2rem;
+  color: #ffffff;
+  margin: 1rem 0;
+}
+
+.Main__content {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .Main-heading {
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+
+  .Main__content {
+    padding: 2rem 0;
+  }
 }

@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="Main">
       <Header />
-      <section className="Container">
+      <section className="Main__content Container">
         <h1 className="Main-heading">
           Learn with the best. <br/>
           Learn with Flearn Co!
