@@ -25,14 +25,12 @@
   margin: 1rem 0;
 }
 
-
+.active {
+  color: #000000;
+  text-decoration: none;
+}
 
 @media screen and (min-width: 1024px) {
-  .active {
-    color: #000000;
-    text-decoration: none;
-  }
-  
   .Menu {
     box-shadow: none;
     display: flex;
