@@ -1,10 +1,10 @@
-import Navigation from './components/Navigation.js';
+import Header from './components/Header.js';
 import './style/main.css';
 
 function App() {
   return (
     <div className="Main">
-      <Navigation />
+      <Header />
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.Menu {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  align-items: flex-end;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  top: 50px;
+  opacity: 0;
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.Menu.Opened {
+  top: 60px;
+  opacity: 1;
+  transition: all 0.2;
+}
+
+.Menu__item {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+  .Menu {
+    display: flex;
+    list-style: none;
+  }
+}
