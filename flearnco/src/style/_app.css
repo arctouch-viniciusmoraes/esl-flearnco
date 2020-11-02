@@ -21,3 +21,7 @@ a {
   max-width: 1024px;
   margin: 0 auto
 }
+
+.Main-heading {
+  font-size: 2rem;;
+}

@@ -19,6 +19,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .Header .Container{
+    padding: 1rem 0;
+  }
+
   .Header__toggle-menu-button {
     display: none;
   }
