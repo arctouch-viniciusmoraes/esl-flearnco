@@ -1,18 +1,18 @@
 import {
-  Link,
+  NavLink,
 } from 'react-router-dom';
 
 const Menu = (props) => {
   return (
     <ul className={`Menu ${props.opened ? 'Opened' : ''}`}>
       <li className="Menu__item">
-        <Link to="/">Home</Link>
+        <NavLink exact activeClassName="active" to="/">Home</NavLink>
       </li>
       <li className="Menu__item">
-        <Link to="/lessons">Lessons</Link>
+        <NavLink activeClassName="active" to="/lessons">Lessons</NavLink>
       </li>
       <li className="Menu__item">
-        <Link to="/contact">Contact</Link>
+        <NavLink activeClassName="active" to="/contact">Contact</NavLink>
       </li>
     </ul>
   );
