@@ -1,0 +1,9 @@
+.Login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.Login-form__title {
+  margin-bottom: 1rem;
+}
