@@ -1,13 +1,37 @@
 .Button {
   background-color: unset;
+  border-radius: 4px;
   border: none;
+  font-weight: bold;
   outline: 0;
   padding: 1rem;
 }
 
 .Button.btn-link {
   color: #1199ee;
-  font-weight: bold;
   padding: 0;
   text-decoration: underline;
 }
+
+.Button.btn-primary {
+  background-color: #22aa99;
+  color: #ffffff;
+  margin: 1rem 0;
+}
+
+.Button.btn-sm {
+  width: 6rem;
+}
+
+.Button.btn-md {
+  width: 12rem;
+}
+
+.Button.btn-lg {
+  width: 18rem;
+}
+
+.Button.btn-full {
+  width: 100%;
+}
+

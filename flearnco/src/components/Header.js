@@ -3,8 +3,8 @@ import {
   Link,
 } from 'react-router-dom';
 import { useState } from 'react';
-import Button from './Button.js';
-import Menu from './Menu.js';
+import Button from './Button';
+import Menu from './Menu';
 
 const Navigation = () => {
   const [menuOpened, setMenuOpened] = useState(false);

@@ -1,5 +1,6 @@
 import './style/main.css';
-import Header from './components/Header.js';
+import Header from './components/Header';
+import ContentCard from './components/ContentCard';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           Learn with the best. <br/>
           Learn with Flearn Co!
         </h1>
+        <ContentCard />
       </section>
     </div>
   );
