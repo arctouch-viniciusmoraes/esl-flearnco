@@ -14,7 +14,9 @@ const Login = () => {
 
   return (
     <form onSubmit={login} className="Login-form">
-      <p className="Login-form__title">For the best learning experience around, please log in to your account.</p>
+      <p className="Login-form__title">
+        For the best learning experience around, please log in to your account.
+      </p>
       <FormInput
         fieldId="email"
         inputType="email"
