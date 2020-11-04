@@ -4,7 +4,7 @@ const Button = (props) => {
   const [size] = useState(props.size);
 
   return(
-    <button className={`Button btn-${variant} btn-${size}`} onClick={props.onClick}>
+    <button type={props.type} className={`Button btn-${variant} btn-${size}`} onClick={props.onClick}>
       {props.children}
     </button>
   );

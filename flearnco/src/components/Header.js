@@ -9,7 +9,7 @@ import Menu from './Menu';
 const Navigation = () => {
   const [menuOpened, setMenuOpened] = useState(false);
 
-  function toggleMobileMenu() {
+  const toggleMobileMenu = () => {
     setMenuOpened(!menuOpened);
   }
 
