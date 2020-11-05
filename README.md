@@ -16,7 +16,7 @@ In the project directory, after cloning, you can run:
 
 ### `yarn install`
 
-Installs the project setup.
+Installs project's dependencies and required setup.
 
 ### `yarn start`
 
@@ -28,17 +28,12 @@ You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-The app is ready to be deployed!
+Builds the app for production to the `build` folder.
 
 ## Live app
 
-Continuous static deploys on [Netlify](http://link.to.netlify).
+Continuous static deploys on [Netlify](https://flearnco.netlify.app/).
