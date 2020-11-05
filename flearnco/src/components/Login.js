@@ -31,7 +31,7 @@ const Login = () => {
         inputCallback={setPassword}
       />
 
-      <Button type="submit" variant="primary" size="sm">Log In</Button>
+      <Button type="submit" variant="primary" size="xs">Log In</Button>
     </form>
   );
 }

@@ -7,3 +7,9 @@
 .Login-form__title {
   margin-bottom: 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .Login-form {
+    margin: 0;
+  }
+}

@@ -24,21 +24,35 @@ a {
 
 .Main-heading {
   font-size: 2rem;
-  color: #ffffff;
-  margin: 1rem 0;
+}
+
+.Secondary-heading {
+  font-size: 1rem;
 }
 
 .Main__content {
   padding: 1rem;
 }
 
+.App-heading {
+  color: #ffffff;
+  margin: 1rem 0;
+}
+
 @media screen and (min-width: 1024px) {
   .Main-heading {
     font-size: 3rem;
-    margin: 2rem 0;
+  }
+
+  .Secondary-heading {
+    font-size: 1.5rem;
   }
 
   .Main__content {
-    padding: 2rem 0;
+    padding: 2rem;
+  }
+
+  .App-heading {
+    margin: 2rem 0;
   }
 }

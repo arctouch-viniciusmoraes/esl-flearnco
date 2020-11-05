@@ -7,7 +7,7 @@ function App() {
     <div className="Main">
       <Header />
       <section className="Main__content Container">
-        <h1 className="Main-heading">
+        <h1 className="Main-heading App-heading">
           Learn with the best. <br/>
           Learn with Flearn Co!
         </h1>

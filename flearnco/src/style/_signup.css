@@ -1,0 +1,20 @@
+.Signup {
+  background-color: #dddddd;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.Signup__title {
+  padding: 1rem 0;
+}
+
+.Signup__disclaimer {
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1024px) {
+  .Signup{
+    padding: 1rem 2rem;
+  }
+}

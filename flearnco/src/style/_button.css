@@ -19,8 +19,21 @@
   margin: 1rem 0;
 }
 
-.Button.btn-sm {
+.Button.btn-secondary {
+  background-color: unset;
+  color: #000000;
+  margin: 1rem 0;
+  border: 4px solid #000000;
+}
+
+
+
+.Button.btn-xs {
   width: 6rem;
+}
+
+.Button.btn-sm {
+  width: 8rem;
 }
 
 .Button.btn-md {
@@ -28,10 +41,15 @@
 }
 
 .Button.btn-lg {
-  width: 18rem;
+  width: 16rem;
 }
 
 .Button.btn-full {
   width: 100%;
 }
 
+@media screen and (max-width: 359px) {
+  .Button.btn-lg {
+    width: 100%;
+  } 
+}
