@@ -5,7 +5,7 @@ const Signup = () => {
     <aside className="Signup">
       <h2 className="Secondary-heading Signup__title">
         Don't have an account? <br/>
-        Signup today –– it's free!
+        Signup today — it's free!
       </h2>
       <p className="Signup__disclaimer">
         With our revolutionary learning software, you'll be ahead of the pack in no time.
