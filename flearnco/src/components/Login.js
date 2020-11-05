@@ -9,7 +9,7 @@ const Login = () => {
 
   const login = (event) => {
     event.preventDefault();
-    console.log(`email: ${email}, password: ${password}`)
+    console.log(`Success | email: ${email}, password: ${password}`);
   }
 
   return (
@@ -22,6 +22,7 @@ const Login = () => {
         inputType="email"
         label="Your e-mail address:"
         inputCallback={setEmail}
+        required={true}
       />
 
       <FormInput
@@ -29,6 +30,7 @@ const Login = () => {
         inputType="password"
         label="Your password:"
         inputCallback={setPassword}
+        required={true}
       />
 
       <Button type="submit" variant="primary" size="xs">Log In</Button>

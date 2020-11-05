@@ -5,7 +5,10 @@ The instruction and design are [here](https://gist.github.com/colepeters/9657b05
 ## Result
 
 The final result includes:
-- TBD
+- HTML5 input simple validations
+- Responsive
+- Lighthouse score: 99 performance, 96 accessibility, 100 Best Practice, 100 SEO
+- Continuous static deploy on Netlify
 
 ## Project setup
 

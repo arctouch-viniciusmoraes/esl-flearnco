@@ -17,6 +17,7 @@ const FormInput = (props) => {
         type={props.inputType}
         value={inputValue}
         onChange={e => returnInputValue(e.target.value)}
+        required={props.required}
       />
     </div>
   );
