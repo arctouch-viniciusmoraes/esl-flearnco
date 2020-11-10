@@ -86,18 +86,18 @@ The project was built using React, started from `create-react-app`. For unit tes
 
 In the project directory, after cloning it, you can run the following commands:
 
-- `yarn install`:
+- `yarn install`:\
 Installs project's dependencies and required setup.
 
-- `yarn start`:
+- `yarn start`:\
 Runs the app in the development mode.\ 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-- `yarn test`
+- `yarn test`:\
 Launches the test runner in the interactive watch mode.
 
--`yarn build`
+- `yarn build`:\
 Builds the app for production to the `build` folder.
 
 ## Live app
