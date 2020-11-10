@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-import FormInput from './FormInput';
 import Button from './Button';
 
 const Login = () => {
@@ -17,21 +16,29 @@ const Login = () => {
       <p className="Login-form__title">
         For the best learning experience around, please log in to your account.
       </p>
-      <FormInput
-        fieldId="email"
-        inputType="email"
-        label="Your e-mail address:"
-        inputCallback={setEmail}
-        required={true}
-      />
+      <div className="Form-input__field-group">
+        <label className="Form-input__label" htmlFor="email">Your e-mail address:</label>
+        <input
+          className="Form-input__input"
+          id="email"
+          type="email"
+          value={email}
+          onChange={e => setEmail(e.target.value)}
+          
+        />
+      </div>
 
-      <FormInput
-        fieldId="password"
-        inputType="password"
-        label="Your password:"
-        inputCallback={setPassword}
-        required={true}
-      />
+      <div className="Form-input__field-group">
+        <label className="Form-input__label" htmlFor="password">Your password:</label>
+        <input
+          className="Form-input__input"
+          id="password"
+          type="password"
+          value={password}
+          onChange={e => setPassword(e.target.value)}
+          
+        />
+      </div>
 
       <Button type="submit" variant="primary" size="xs">Log In</Button>
     </form>

@@ -8,6 +8,25 @@
   margin-bottom: 1rem;
 }
 
+.Form-input__field-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.Form-input__label {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.Form-input__input {
+  border: solid 1px #000000;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
 @media screen and (min-width: 1024px) {
   .Login-form {
     margin: 0;
