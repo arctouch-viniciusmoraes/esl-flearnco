@@ -34,7 +34,7 @@ to us when it comes time to review it!
 
 ## mockups
 
-Check out the ![mockups](https://user-images.githubusercontent.com/1713932/92289058-c2fc1800-eed4-11ea-9f08-1a3c91d96c9c.png).
+Check out the mockups. ![mockups](https://user-images.githubusercontent.com/1713932/92289058-c2fc1800-eed4-11ea-9f08-1a3c91d96c9c.png)
 
 ## Everything else
 - For now, the links in the navigation bar don't have to go anywhere; as long as they are links,
